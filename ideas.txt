@@ -1,0 +1,13 @@
+Tạo một chương trình có khả năng theo dõi tiến trình phát triển của người chơi.
+
+Menu gồm các mục: 
+    Daily quest
+    Status
+    Achievement
+    Special
+    Goals
+
+
+DAILY QUEST 
+    Chứa các nhiệm vụ hằng ngày: rèn luyện sức khỏe, rèn trí tuệ ...
+    

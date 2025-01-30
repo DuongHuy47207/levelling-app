@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lvelling</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="flex">
+    <div class="menu">
+        <h1 class="main-title">Levelling up System</h1>
+        <p>Welcome to our territoty</p>
+        <button class="daily-quest-btn" id="dailyQuestBtn">Daily Quest</button>
+        <button class="status-btn" id="statusBtn"> Status</button>
+        <button class="event-btn" id="eventBtn">Event</button>
+        <button class="achievement-btn" id="achievementBtn">Achievement</button>
+        <button class="special-btn" id="specialBtn">Special</button>
+    </div>  
+        
+    <div class="daily-quest" id="dailyQuest">
+        <h2 class="window-title">Daily Quest</h2>
+        <h4>Quest Info</h4>
+        <p>[Best training quest has arrived.]</p>
+        <p>[Remember to add task based on the current goal.]</p>
+        <div class="task">
+            <h3>Task</h3>
+            <ul>
+                <li></li>
+            </ul>
+            <input type="text" placeholder="Add more tasks" id="addTask" class="add-task">
+            <button class="lock-btn" id="lockBtn">Lock</button>
+        </div>
+    </div>
+
+    <div class="status" id="status">
+        <h1 class="window-title">Status</h1>
+        <div class="base-status">
+            <div class="level-container">
+                <p class="level" id="level"></p>
+                <p>level</p>
+            </div>
+            <div class="player-info">
+                <p>Player: <span class="player-name" id="playerName"></span></p>
+                <p>Job: <span class="player-job" id="playerJob"></span></p>
+                <p>Title: <span class="player-title" id="playerTitle"></span></p>
+            </div>
+        </div>
+        <div class="core-status">
+            <p class="intelligence">Intelligence: <span class="intelligence-index" id="intelligence-index"></span></p>
+            <p class="creativity">Creativity: <span class="creativity-index" id="creativity-index"></span></p>
+            <p class="crithingking">Critical Thinking: <span class="crithingking-index" id="crithingking-index"></span></p>
+            <p class="social">Social Intelligence: <span class="social-index" id="social-index"></span></p>
+            <p class="flexibility">Flexibility: <span class="flexibility-index" id="flexibility-index"></span></p>
+            <p class="strength">Strength: <span class="strength-index" id="strength-index"></span></p>
+            <p class="agility">Agility: <span class="agility-index" id="agility-index"></span></p>
+            <p class="reflex">Reflex: <span class="reflex-index" id="reflex-index"></span></p>
+        </div>
+    </div>
+
+
+    <div class="goals" id="goals">
+        <button class="short-term" id="shortTermBtn"></button>
+        <button class="med-term" id="medTermBtn"></button>
+        <button class="long-term" id="longTermBtn"></button>
+
+        <div class="short-term">
+            <div class="count-down-progress"></div>
+            <div class="completed-progress"></div>
+            
+        </div>
+        <div class="med-term">
+            <div class="count-down-progress"></div>
+            <div class="completed-progress"></div>
+            
+        </div>
+        <div class="long-term">
+            <div class="count-down-progress"></div>
+            <div class="completed-progress"></div>
+            
+        </div>
+    </div>
+    <div class="achievement" id="achievement"></div>
+    <div class="special" id="special"></div>
+
+    <div class="notification"></div>
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>
